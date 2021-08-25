@@ -1,14 +1,5 @@
-import "./styles/index.scss";
-const test={
-    ali: 20,
-    sohrab: 18.5,
-    farhad: 12
-};
+import {render} from "react-dom"; 
+import App from "./components/App";
 
-const test2={
-    ...test,
-    mahdi: 15,
-    shahram: 9.5
-}
-console.log(test);
-console.log(test2);
+render(<App />,document.getElementById("root"));
+
