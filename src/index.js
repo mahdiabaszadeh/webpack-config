@@ -1,3 +1,4 @@
+import "./styles/index.scss";
 const test={
     ali: 20,
     sohrab: 18.5,
