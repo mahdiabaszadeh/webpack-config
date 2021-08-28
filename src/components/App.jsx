@@ -3,7 +3,7 @@
 import "../styles/index.scss";
 
 import React from "react";
-import Recipies from "./Recipies";
+import Recipes from "./Recipes";
 
 import photo from "../images/pic.jpg";
 function App() {
@@ -12,10 +12,10 @@ function App() {
       <section className="hero"></section>
       <main>
         <section>
-          <h1>I'm with React</h1>
+          <h1>I'm with React, mahdi</h1>
         </section>
         <img src={photo} alt="photo" width="250" />
-        <Recipies />
+        <Recipes />
       </main>
     </>
   );

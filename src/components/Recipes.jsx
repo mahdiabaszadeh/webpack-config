@@ -16,7 +16,7 @@ console.log(math);
 console.log(phisics);
 
 
-function Recipies() {
+function Recipes() {
   const [state, setstate] = useState();
 
   return (
@@ -50,4 +50,4 @@ function Recipies() {
   );
 }
 
-export default Recipies;
+export default Recipes;
