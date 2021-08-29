@@ -1,5 +1,3 @@
-/** @format */
-
 import "../styles/index.scss";
 
 import React from "react";
